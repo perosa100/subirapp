@@ -1,4 +1,7 @@
-console.log('process.env.DATABASEE_URL :>> ', process.env.DATABASE_URL);
+console.log(
+  'process.env.DATABASEE_URL :>> ',
+  process.env.HEROKU_POSTGRESQL_AQUA_URL,
+);
 module.exports = {
   type: 'postgres',
   url: process.env.HEROKU_POSTGRESQL_AQUA_URL,
