@@ -8,5 +8,5 @@ module.exports = {
     migrationsDir: ['src/database/migrations/'],
     entitiesDir: 'src/models',
   },
-  extra: { ssl: true, rejectUnauthorized: false },
+  extra: { rejectUnauthorized: false },
 };
